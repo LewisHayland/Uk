@@ -82,7 +82,7 @@ namespace Uk_Retails
             // 
             // btnMenu
             // 
-            this.btnMenu.Location = new System.Drawing.Point(261, 87);
+            this.btnMenu.Location = new System.Drawing.Point(262, 43);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(75, 23);
             this.btnMenu.TabIndex = 9;
