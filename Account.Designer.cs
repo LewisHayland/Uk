@@ -36,6 +36,9 @@ namespace Uk_Retails
             this.button3 = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblAnum
@@ -74,7 +77,7 @@ namespace Uk_Retails
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(667, 43);
+            this.button3.Location = new System.Drawing.Point(663, 58);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 10;
@@ -83,7 +86,7 @@ namespace Uk_Retails
             // 
             // btnMenu
             // 
-            this.btnMenu.Location = new System.Drawing.Point(262, 43);
+            this.btnMenu.Location = new System.Drawing.Point(262, 58);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(75, 23);
             this.btnMenu.TabIndex = 9;
@@ -95,11 +98,27 @@ namespace Uk_Retails
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(21, 39);
+            this.label3.Location = new System.Drawing.Point(12, 54);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(134, 25);
             this.label3.TabIndex = 11;
             this.label3.Text = "UK RETAILS";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 12;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // newToolStripMenuItem
+            // 
+            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.newToolStripMenuItem.Text = "File";
             // 
             // Account
             // 
@@ -114,8 +133,12 @@ namespace Uk_Retails
             this.Controls.Add(this.lblUname);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Account";
             this.Text = "Account Information";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,5 +153,7 @@ namespace Uk_Retails
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnMenu;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
     }
 }
