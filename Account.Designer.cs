@@ -33,10 +33,8 @@ namespace Uk_Retails
             this.lblUname = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblAnum
@@ -73,15 +71,6 @@ namespace Uk_Retails
             this.label1.TabIndex = 4;
             this.label1.Text = "UserName:";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Uk_Retails.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(16, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(185, 54);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(667, 43);
@@ -93,7 +82,7 @@ namespace Uk_Retails
             // 
             // btnMenu
             // 
-            this.btnMenu.Location = new System.Drawing.Point(262, 43);
+            this.btnMenu.Location = new System.Drawing.Point(261, 87);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(75, 23);
             this.btnMenu.TabIndex = 9;
@@ -109,14 +98,12 @@ namespace Uk_Retails
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnMenu);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblAnum);
             this.Controls.Add(this.lblUname);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Account";
             this.Text = "Account Information";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,7 +115,6 @@ namespace Uk_Retails
         private System.Windows.Forms.Label lblUname;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnMenu;
     }
